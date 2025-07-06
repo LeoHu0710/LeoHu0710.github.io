@@ -1,24 +1,15 @@
 ---
 layout: page
-title: "About"
-description: "「他单纯只想把日子过得不浪费」"
-header-img: "img/bg-me-2022.jpg"
+title: "關於我"
+description: "關於我 - AI 探索空間"
+header-img: "img/bg-me-2022.jpg" # 建議替換成您自己的關於頁面背景圖
 header-mask: 0.3
-multilingual: true
 ---
-
-{% include multilingual-sel.html %}
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {% capture about_zh %}{% include about/zh-Hant.md %}{% endcapture %}
     {{ about_zh | markdownify }}
-</div>
-
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
 </div>
 
 
