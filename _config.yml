@@ -3,9 +3,9 @@ title: LeoHu Blog
 SEOTitle: LeoHu的博客 | LeoHu Blog
 header-img: img/home-bg.jpg
 email: leohu0710@gmail.com
-description: "這裡是 @Leohu 的個人博客"
-keyword: "Leohu"
-url: "https://huangxuan.me" # your host, for absolute URL
+description: "這裡是 @LeoHu 的個人博客"
+keyword: "LeoHu"
+url: "https://LeoHu.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,12 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+weibo_username: LeoHu
+zhihu_username: LeoHu
+github_username: LeoHu
+twitter_username: LeoHu
+facebook_username: LeoHu
+#linkedin_username:  LeoHu
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: LeoHu
 
 # Netease settings
 netease_comment: false
@@ -69,13 +69,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: "UA-XXXXX-Y" # Please use your own track id
+ga_domain: LeoHu.github.io # Please use your own domain
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/LeoHu.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
