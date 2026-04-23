@@ -1,0 +1,92 @@
+# Site settings
+title: Leo Hu | AI 工程筆記
+SEOTitle: Leo Hu | AI Engineer Blog
+header-img: https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80 # 建議替換成您自己的 AI 主題圖片路徑，例如 img/ai-header-bg.jpg
+email: leohu0710@gmail.com
+description: "一位 AI 工程師的技術筆記，專注 NLP、LLM 微調、機器視覺與 MLOps。"
+keyword: "AI, LLM, NLP, 機器學習, 深度學習, 機器視覺, LoRA, RAG, Prompt Engineering, AI 工程師"
+url: "https://leohu0710.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+github_username: LeoHu0710
+linkedin_username: li-yun-hu-bb0394314
+email_public: true
+# 備用（目前不顯示，要的話把 # 拿掉即可）
+# twitter_username: LeoHu0710
+# instagram_username: arieair_0710
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+timezone: Asia/Taipei
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Disqus settings (留言功能，留白即停用)
+disqus_username:
+
+# Netease settings
+netease_comment: false
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics (未啟用，留空即可)
+ga_track_id:
+ga_domain: leohu0710.github.io
+
+# Sidebar settings
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "AI 工程師<br>專注於 NLP、LLM 微調與機器視覺"
+sidebar-avatar: /img/avatar-leo.jpg
+
+# Featured Tags
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#0085a1"
+service-worker: true
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+# Friends
+friends: []
