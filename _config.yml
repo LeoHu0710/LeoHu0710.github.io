@@ -1,7 +1,7 @@
 # Site settings
 title: Leo Hu | AI 工程筆記
 SEOTitle: Leo Hu | AI Engineer Blog
-header-img: https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80 # 建議替換成您自己的 AI 主題圖片路徑，例如 img/ai-header-bg.jpg
+header-img: img/home-bg-geek.jpg
 email: leohu0710@gmail.com
 description: "一位 AI 工程師的技術筆記，專注 NLP、LLM 微調、機器視覺與 MLOps。"
 keyword: "AI, LLM, NLP, 機器學習, 深度學習, 機器視覺, LoRA, RAG, Prompt Engineering, AI 工程師"
